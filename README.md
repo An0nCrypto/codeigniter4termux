@@ -1,9 +1,13 @@
 #Install codeigniter4 Via termux
 pertama install composer, Caranya ada di https://www.abrahamyusuf.my.id/2020/11/cara-install-composer-di-termux-coding.html
 step pertama install composer:
+ 
  $ pkg up
+ 
  $ pkg instal curl
+ 
  $ pkg instal php
+ 
  $ curl -sS https://getcomposer.org/installer | php -- --install-dir=/data/data/com.termux/files/usr/bin --filename=composer
  
  setelah itu verifikasi
